@@ -51,3 +51,9 @@ Before running the script:
   Example:
   ```bash
   pdftoppm -gray -r 600 -scale-to-x 2000 -scale-to-y 2600 -tiff "Monster Volume 11 - PDF Room.pdf" tmp
+
+---
+
+After running the script change the cleaned folder name to whatever book title you want and add it to comic converter to output a mobi file 
+
+![image](https://github.com/user-attachments/assets/95cdfd90-72f8-4912-84af-fd31c2fdae92)
