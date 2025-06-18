@@ -16,6 +16,32 @@ This repository contains a shell script to **clean and prepare PDFs** (e.g. scan
 
 ---
 
+## 📝 Requirements
+
+Make sure the following tools are installed on your system:
+
+- [`pdftoppm`](https://poppler.freedesktop.org/) (part of Poppler)
+- [`ImageMagick`](https://imagemagick.org/)
+- [`parallel`](https://www.gnu.org/software/parallel/)
+- (Optional) [`img2pdf`](https://github.com/josch/img2pdf) if you want to recombine images into a PDF
+
+
+## 🧰 Install Dependencies
+
+### Mac (Homebrew)
+
+```bash
+brew install poppler imagemagick parallel img2pdf
+```
+
+### Windows (Scoop)
+
+```bash
+scoop install poppler imagemagick gnu-parallel python
+pip install img2pdf
+```
+---
+
 ## 📂 Folder & File Requirements
 
 Before running the script:
